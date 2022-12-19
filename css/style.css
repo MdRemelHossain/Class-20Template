@@ -1,0 +1,39 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* Custom css start here  */
+/* header section  */
+header{
+    background-color: #e3f2fd;
+}
+header nav a img{
+    width: 43px;
+    height: auto;
+}
+/* slider section  */
+/* .slider-section .carousel-item img{
+    height: 620px;
+} */
+.scrollspy-example{
+    height: 150px;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    visibility: hidden;
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion h2 button {
+    font-weight: bold;
+    color: #2990ff;
+}
